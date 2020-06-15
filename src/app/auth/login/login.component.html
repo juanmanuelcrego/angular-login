@@ -1,0 +1,20 @@
+<section class="jc-container">
+    <div class="jc-divlogo">
+        <div class="jc-spaceship"></div>
+        <div class="jc-fire"></div>
+        <div class="jc-title"></div>
+    </div>
+    <form [formGroup]="form">
+        <fieldset>
+            <legend>Usuario</legend>
+            <input name="user" formControlName="user" required>
+        </fieldset>
+        <fieldset>
+            <legend>Password</legend>
+            <input name="password" formControlName="password" type="password" required>
+        </fieldset>
+        <button (click)="login()">Login <i class="fas fa-chevron-right"></i></button>
+    </form>
+    <p>Powered by <a href="www.jcrego.com">jCrego</a></p>
+</section>
+

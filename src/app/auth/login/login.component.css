@@ -1,0 +1,121 @@
+.jc-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 414px;
+  height: 896px;
+  background-color: #222222;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  font-family: Montserrat;
+  border-radius: 20px;
+}
+
+.jc-container .jc-divlogo {
+  width: 414px;
+  height: 427px;
+  left: 0px;
+  top: 0px;
+  background: #333333;
+  border-radius: 20px 20px 40px 40px;
+}
+
+.jc-container .jc-divlogo .jc-spaceship {
+  position: absolute;
+  left: 35.99%;
+  right: 24.74%;
+  top: 8.5%;
+  bottom: 59.78%;
+  background: url("../../svg/spaceship.svg");
+  background-repeat: no-repeat;
+  z-index: 99;
+}
+
+.jc-container .jc-divlogo .jc-fire {
+  position: absolute;
+  width: 260.5px;
+  height: 190px;
+  left: 76px;
+  top: 237px;
+  background: url("../../svg/fire.svg");
+  background-repeat: no-repeat;
+  z-index: 9;
+}
+
+.jc-container .jc-divlogo .jc-title {
+  position: absolute;
+  width: 233px;
+  height: 82px;
+  left: 90px;
+  top: 396px;
+  background: url("../../svg/title.svg");
+  background-repeat: no-repeat;
+  z-index: 99;
+}
+
+.jc-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin-top: 60px;
+  width: 232px;
+  height: 290px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jc-container form fieldset {
+  border: none;
+}
+
+.jc-container form legend {
+  color: #eee;
+  font-size: 18px;
+}
+
+.jc-container form input {
+  width: 232px;
+  height: 52px;
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+}
+
+.jc-container form button {
+  width: 232px;
+  height: 67px;
+  font-size: 32px;
+  background-color: #DA4444;
+  color: #eee;
+  border: 0;
+  cursor: pointer;
+  font-family: Montserrat;
+}
+
+.jc-container p {
+  color: #eee;
+}
+
+.jc-container a {
+  color: #DA4444;
+}
+/*# sourceMappingURL=login.component.css.map */
